@@ -22,14 +22,14 @@
 			<value id="game" value="0x05"/>
 		</control>
 
-		<control id="coloruniformity" type="list" address="0xe2">
+		<control id="coloruniformity" type="list" address="0xe4">
 			<value id="off" value="0x00"/>
 			<value id="calibrated" value="0x01"/>
 		</control>
 
 		<control id="dynamiccontrast" type="list" address="0xf2">
 			<value id="off" value="0x00"/>
-			<value id="calibrated" value="0x01"/>
+			<value id="on" value="0x01"/>
 		</control>
 	</controls>
 
