@@ -4,9 +4,9 @@
 
 	<controls>
 		<control id="inputsource" type="list" address="0x60">
-			<value id="mDP" value="0x10"/>
-			<value id="DP" value="0x0F"/>
-			<value id="HDMI (MHL)" value="0x11"/>
+			<value id="mdp" value="0x10"/>
+			<value id="dp" value="0x0F"/>
+			<value id="hdmi-mhl" value="0x11"/>
 		</control>
 
 		<control id="colorpreset" type="list" address="0x14">
