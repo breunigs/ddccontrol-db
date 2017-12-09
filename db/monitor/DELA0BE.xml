@@ -8,6 +8,22 @@
         <value id="HDMI (MHL)" value="0x11"/>
     </control>
 
+    <control id="colorpreset" type="list" address="0x14">
+        <value id="native" value="0x05"/>
+        <value id="cool" value="0x08"/>
+        <value id="warm" value="0x0b"/>
+        <value id="custom" value="0x0c"/>
+    </control>
+
+    <control id="magicbright" type="list" address="0xdc">
+        <value id="standard" value="0x00"/>
+        <value id="multimedia" value="0x02"/>
+        <value id="game" value="0x05"/>
+    </control>
+
+    <!-- called Color Uniformity in OSD. 1 = Calibrated, 0 = Off -->
+    <control id="colorreturn" address="0xe2" />
+
     <include file="VESA"/>
 </monitor>
 
